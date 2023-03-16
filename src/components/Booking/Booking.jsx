@@ -53,7 +53,9 @@ const Booking = ({ tour, avgRating }) => {
       if (!res.ok) {
         alert(result.message);
       }
-      navigate("/tourBooked");
+      if (res.ok) {
+        navigate("/tourBooked");
+      }
     } catch (error) {
       alert(error.message);
     }
