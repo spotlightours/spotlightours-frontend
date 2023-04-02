@@ -1,4 +1,4 @@
-.car__img img {
+.tour__img img {
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -8,10 +8,10 @@
   border: none !important;
   box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
 }
-.car__img {
+.tour__img {
   position: relative;
 }
-.car__img span {
+.tour__img span {
   position: absolute;
   bottom: 0;
   right: 0;
@@ -26,33 +26,36 @@
 .card__top span i {
   color: var(--secondary-color);
 }
-.car__rating {
+.tour__rating {
   font-size: 0.9rem;
   color: var(--text-color);
 }
 
-.car__location {
+.tour__location {
   color: var(--heading-color);
   font-weight: 500;
   font-size: 0.9rem;
 }
-.car__rating i,
-I .car__location i {
+.tour__rating i,
+I .tour__location i {
   font-size: 1rem;
 }
-.car__title {
+.tour__title {
   margin-top: 1rem;
   font-size: 1.1rem;
   cursor: pointer;
+  height: auto;
+  max-height: 1.5rem;
+  overflow: hidden;
 }
 
-.car__title a {
+.tour__title a {
   text-decoration: none;
   color: var(--heading-color);
   transition: 0.3s;
 }
 
-.car__title:hover {
+.tour__title:hover {
   color: var(--secondary-color);
 }
 

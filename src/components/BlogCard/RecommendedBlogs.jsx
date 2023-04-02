@@ -1,6 +1,6 @@
 import React from "react";
 import { Row, Container, Col } from "reactstrap";
-import BlogCard from "./BlogCard";
+import RecommendedBlogCard from "./RecommendedBlogCard";
 
 import useFetch from "../../hooks/useFetch";
 import { BASE_URL } from "../../utils/config";
@@ -23,7 +23,7 @@ const RecommendedBlogs = () => {
             (blog, index) =>
               index < 4 && (
                 <Col lg="3" className="mb-4" key={blog._id}>
-                  <BlogCard blog={blog} />
+                  <RecommendedBlogCard blog={blog} />
                 </Col>
               )
           )}
