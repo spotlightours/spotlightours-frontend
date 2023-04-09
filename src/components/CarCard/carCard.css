@@ -44,6 +44,10 @@ I .car__location i {
   margin-top: 1rem;
   font-size: 1.1rem;
   cursor: pointer;
+  white-space: nowrap;
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .car__title a {

@@ -35,6 +35,10 @@
   color: var(--heading-color);
   font-weight: 500;
   font-size: 0.9rem;
+  white-space: nowrap;
+  width: 50%;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 .tour__rating i,
 I .tour__location i {
@@ -44,9 +48,10 @@ I .tour__location i {
   margin-top: 1rem;
   font-size: 1.1rem;
   cursor: pointer;
-  height: auto;
-  max-height: 1.5rem;
+  white-space: nowrap;
+  width: 100%;
   overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .tour__title a {
